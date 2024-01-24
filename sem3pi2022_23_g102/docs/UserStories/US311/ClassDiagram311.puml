@@ -1,0 +1,72 @@
+@startuml
+package Main <<Folder>>#DDDDDD {
+package Company <<Folder>>#DDDDDD {
+package ui <<Folder>>#DDDDDD {
+class Main
+class MenuUI {
++printMainStatistics()
+    }
+}
+
+package Controller <<Folder>>#DDDDDD {
+class MainController {
++printMainStatistics()
+    }
+}
+
+package Store <<Folder>>#DDDDDD {
+class ExpedatingStore {
++getHubProximoCliente()
++getExpedatingList();
+}
+class StoreLists
+class MapStore
+}
+package Model <<Folder>>#DDDDDD {
+class Company {
++getStoreLists()
++getMapGraphPessoaStore()
++getMapStore()
+}
+}
+}
+
+package Methods <<Folder>>#DDDDDD {
+class Statistics {
++cabazStatistics()
++expeditionStatistics(List<StatisticsByCabaz> statisticsByCabazList)
++produtorStatistics(List<StatisticsByCabaz> statisticsbyCabazList, ExpeditionStatistics expeditionStatisticsObject)
++findAllClients()
++findAllProducers()
++findProdutorObjectList(listProducer, produtores)
++hubsExistentes(Map<Pessoa, Map<Pessoa, Integer>> hubClient, List<Pessoa> listClient)
++produtosEsgotados(Produtor produtor, Map<Produtor, TreeMap<Integer, Map<Produtos, Double>>> stockMap, int dia)
++findClientObjectList(List<Pessoa> listClient, List<String> clientes)
++expedatingStore.getHubProximoCliente()
+}
+
+class FindMethods {
++findAllProducers()
++findAllClients()
+}
+
+}
+
+}
+Main ..> MenuUI
+MenuUI ..> MainController
+Company *-- StoreLists : owns
+Company *-- MapStore : owns
+Company *-- ExpedatingStore : owns
+
+MainController ..> Company
+MainController ..> Statistics
+Statistics ..> FindMethods
+Statistics -- ExpedatingStore
+
+Statistics -- MapStore
+
+
+
+@enduml
+

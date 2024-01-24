@@ -1,0 +1,83 @@
+@startuml
+package Main <<Folder>>#DDDDDD {
+package Company <<Folder>>#DDDDDD {
+package ui <<Folder>>#DDDDDD {
+class Main
+class MenuUI {
++lerCabaz(caminho: String)
+    }
+}
+
+package Controller <<Folder>>#DDDDDD {
+class MainController {
++lerCabaz(caminho: String)
+}
+}
+
+package Store <<Folder>>#DDDDDD {
+class StoreLists {
+  -pessoaList: List<Pessoa>
+  -localidadeList: List<Helper>
+  -cabazList: List<Cabaz>
+  +getPessoaList(): List<Pessoa>
+  +getLocalidadeList(): List<Helper>
+  +getCabazList(): List<Cabaz>
+  +setPessoaList(pessoaList: List<Pessoa>): void
+  +setLocalidadeList(localidadeList: List<Helper>): void
+}
+
+class MapStore {
+ +getStore()
+ +setstockProdutorMap()
+ +setcabazMap()
+}
+}
+package ReadFromCSV <<Folder>>#DDDDDD {
+class ReadFromCSV {
++lerCabaz(String caminho): void
+}
+}
+
+
+
+package Model <<Folder>>#DDDDDD {
+class Company {
++getStoreLists()
++getMapGraphPessoaStore
++getMapStore()
+}
+
+}
+}
+
+package Methods <<Folder>>#DDDDDD {
+class CreateMap {
+-storeLists: StoreLists
+-mapStore: MapStore
++guardarProducao(String[] values, String[] headerSplit)
++createMapFruta(String[] values, String[] headerSplit)
+}
+
+
+
+
+}
+
+}
+Main ..> MenuUI
+MenuUI ..> MainController
+Company *-- StoreLists : owns
+Company *-- MapStore : owns
+
+MainController ..> Company
+MainController ..> ReadFromCSV
+ReadFromCSV ..> CreateMap
+
+CreateMap ..> StoreLists
+CreateMap ..> MapStore
+
+
+
+
+@enduml
+

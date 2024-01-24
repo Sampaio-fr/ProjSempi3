@@ -1,0 +1,225 @@
+@startuml
+hide methods
+
+top to bottom direction
+
+class Company{
+ -designation
+}
+
+
+class Cultura{
+-codigo_cultura
+-nome_produtp
+-tipo_cultura
+-preco
+-quantidade_armazenada
+}
+
+class Animal{
+
+}
+
+class TecnicasAgricolas{
+
+}
+
+class Cliente{
+-cod_interno
+-nr_encomendas_ano_anterior
+-valor_encomendas_ano_anterior
+-plafond
+-nivel
+-tipo_cliente
+-nr_incidentes
+-nome
+-NIF
+-email
+-id_morada_correspondencia
+-id_morada_entrega
+}
+
+class CadernodeCampo{
+
+}
+
+class Fertilizacao{
+-id_fertilizaçao
+-tecnica_agricola
+-quantidade
+-data
+-p_rega_id
+-fatores_id
+}
+
+
+class Colheita{
+-id_colheita
+-data_colheita
+-id_gestor
+-cod_cultura
+id_parcela
+}
+
+class DataRegas{
+-Regas
+-quantidade
+-unidade
+-data
+-parcela
+}
+
+class FactordeProducao{
+-fatores_id
+-aplicacao
+-classificacao
+-tipo_fator
+-cod_fichaTecnica
+}
+
+class Parcela{
+-id_parcela
+-designacao
+-area
+-tipo_cultura
+-p_rega_id
+}
+
+class EstacaoMeteorologica{
+-cod_estacao
+}
+
+class Sensor{
+-id_sensor
+-tipo_sensor
+-unidade
+-medicao
+-valor_referencia
+-cod_estacao
+}
+
+class SistemadeRega{
+-s_rega_id
+-qualidade_agua
+-dimensao
+-tipo_rega
+-quantidade_agua
+-unidade
+}
+
+class PlanoRega{
+-p_rega_id
+-tempo_rega
+-periocidade
+-ordem_rega
+-data_rega
+-s_rega_id
+-cod_estacao
+}
+
+class Edificio {
+
+}
+
+class Garagem {
+-tipo
+}
+
+class Armazem {
+-tipo
+}
+
+class Encomenda{
+-id_pedido
+-data
+-preco
+-id_entrega
+-cod_interno
+-morada_id
+}
+
+class FichaTecnica{
+-cod_fichaTecnica
+-formulacao
+-nome
+-tipo
+-fornecedor
+}
+
+class ComposicaoFichaTecnica{
+-detalhesComposicao
+}
+
+class Elemento{
+-tipo
+-quantidade
+}
+
+class DetalhesEncomenda{
+-nrProdutos
+}
+
+class Produto{
+-preco
+-detalhesProduto
+}
+
+
+Company "1" -- "*" InstalacaoAgricola : owns >
+
+InstalacaoAgricola "1" -- "*" Edificio : contains >
+InstalacaoAgricola "1" -- "*" Parcela : contains >
+
+Edificio <|--- Armazem
+Edificio <|--- Garagem
+Edificio <|--- Estabulo
+
+Armazem "1" -- "*" Colheita : stores >
+Armazem "1" -- "*" FactordeProducao : stores >
+Armazem "1" -- "*" SistemadeRega : stores >
+
+Estabulo -- Animal : stores >
+
+EstacaoMeteorologica "1" -- "*" SensorAtmosferico :  has >
+EstacaoMeteorologica "1" -- "*" PlanoRega : changes >
+
+Sensor -- SensorSolo
+Sensor -- SensorAtmosferico
+
+SensorAtmosferico <|--- SensorPluviosidade
+SensorSolo <|--- SensorTemperaturaSolo
+SensorSolo <|--- SensorHumidadeSolo
+SensorAtmosferico <|--- SensorVelocidadeVento
+SensorAtmosferico <|--- SensorTemperaturaHumidadePressao
+
+Parcela "1" -- "1" PlanoRega : depends <
+Parcela -- FactordeProducao : uses >
+Parcela "1" -- "*" Cultura : contains >
+
+PlanoRega "*" -- "*" SistemadeRega : defines >
+
+Fertilizacao "1" -- "1" FactordeProducao :  contains >
+FactordeProducao"1" -- "1"FichaTecnica : details <
+
+FichaTecnica -- ComposicaoFichaTecnica
+ComposicaoFichaTecnica -- Elemento
+
+CadernodeCampo "1" -- "*" Fertilizacao :  contains >
+CadernodeCampo "1" -- "*" EstacaoMeteorologica :  contains >
+CadernodeCampo "1" -- "*" Colheita :  contains >
+CadernodeCampo "1" -- "*" DataRegas :  contains >
+CadernodeCampo "1" -- "*" PlanoRega : stores >
+CadernodeCampo "1" -- "*" Parcela
+
+Cliente "1" -- "*" Encomenda : makes >
+Cliente -- Hub
+
+Encomenda "1" -- DetalhesEncomenda
+
+DetalhesEncomenda -- Produto
+
+Produto -- Colheita
+
+Fertilizacao "1" -- "1" TecnicasAgricolas : contains >
+
+@enduml

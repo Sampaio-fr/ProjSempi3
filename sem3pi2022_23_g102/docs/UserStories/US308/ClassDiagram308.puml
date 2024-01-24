@@ -1,0 +1,82 @@
+@startuml
+package Main <<Folder>>#DDDDDD {
+package Company <<Folder>>#DDDDDD {
+package ui <<Folder>>#DDDDDD {
+class Main
+class MenuUI {
++expedatingForDayRestrictions(int day, int n)
+}
+}
+
+
+package Controller <<Folder>>#DDDDDD {
+class MainController {
++expedatingForDayRestrictions(int day, int n)
++expedatingForDay(int day, int restriction, int n, Map<Produtor, TreeMap<Integer, Map<Produtos, Double>>> stockMap,Map<Pessoa, TreeMap<Integer, Map<Produtos, Double>>> clientsMap)
+getstockProdutorMap()
+getcabazMap()
+}
+}
+
+package Store <<Folder>>#DDDDDD {
+class ExpedatingStore {
++getHubProximoCliente()
++produtoresEachHub(int n)
++setExpedatingList(List<Cabaz> expedatingList)
+}
+
+
+class MapGraphPessoaStore {
++getMapGraph()
+}
+
+class MapStore {
++getstockProdutorMap()
++getcabazMap()
+}
+}
+package Model <<Folder>>#DDDDDD {
+class Company {
++getStoreLists()
++getMapGraphPessoaStore
++getMapStore()
+}
+}
+}
+
+package Methods <<Folder>>#DDDDDD {
+class Expedating {
++expedatingForDay(day: int, restriction: int, n: int, stockMap: Map<Produtor, TreeMap<Integer, Map<Produtos, Double>>>, clientsMap: Map<Pessoa, TreeMap<Integer, Map<Produtos, Double>>>): List<Cabaz>
++findObtainedValueNoRestriction(day: int, produtoCriarObjeto: Produtos, valorExpectado: Double, stockMap: Map<Produtor, TreeMap<Integer, Map<Produtos, Double>>>): InfoProduto
++updateStockQuantities(Map.Entry<Produtor, TreeMap<Integer, Map<Produtos, Double>>> producer,int startDay, int endDay, Produtos produtoFind, double quantityToSubtract)
++getQuantityOrDefault(Map.Entry<Produtor, TreeMap<Integer, Map<Produtos, Double>>> producer,int day, Produtos produtoFind, double defaultValue)+getHubProximoCliente()
++produtoresEachHub(int n)
++setExpedatingList(List<Cabaz> expedatingList)
+}
+
+class FindMethods {
++findAllProducers()
+}
+
+}
+
+}
+
+Main ..> MenuUI
+MenuUI ..> MainController
+Company *-- MapStore : owns
+Company *-- MapGraphPessoaStore : owns
+Company *-- ExpedatingStore : owns
+
+MainController ..> Company
+MainController ..> Expedating
+Expedating ..> FindMethods
+
+
+
+
+
+
+
+@enduml
+

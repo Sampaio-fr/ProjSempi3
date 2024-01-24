@@ -1,0 +1,89 @@
+@startuml
+package Main <<Folder>>#DDDDDD {
+package Company <<Folder>>#DDDDDD {
+package ui <<Folder>>#DDDDDD {
+class Main
+class MenuUI {
++expedatingForDayRestrictions(int day, int n)
++expedatingPath(List<Cabaz> auxList, Map<Pessoa, TreeMap<Integer, Map<Produtos, Double>>> clientsMap, int day)
++getExpedatingList()
++getcabazMap()
+}
+}
+
+package Graph <<Folder>>#DDDDDD {
+class Algorithms {
++minDistGraph(graph, comparator, binaryOperator)
+}
+}
+
+package Controller <<Folder>>#DDDDDD {
+class MainController {
++pathWay(int day)
+}
+}
+
+package Store <<Folder>>#DDDDDD {
+class ExpedatingStore {
++getHubProximoCliente()
++produtoresEachHub(int n)
++setExpedatingList(List<Cabaz> expedatingList)
++expedatingStore.getExpedatingList()
++expedatingStore.getHubProximoCliente()
++expedatingStore.getHubProximoCliente()
+}
+
+
+
+class MapGraphPessoaStore {
++getMapGraph()
+}
+
+class MapStore {
++getstockProdutorMap()
++getcabazMap()
+}
+}
+package Model <<Folder>>#DDDDDD {
+class Company {
++getStoreLists()
++getMapGraphPessoaStore
++getMapStore()
+}
+}
+}
+
+package Methods <<Folder>>#DDDDDD {
+class Expedating {
++expedatingPath(List<Cabaz> auxList, Map<Pessoa, TreeMap<Integer, Map<Produtos, Double>>> clientsMap, int day)
++getHubProximoCliente()
++findAllProducers()
++getMapGraph()
++minDistGraph(graph, comparator, binaryOperator);
+
+}
+
+class FindMethods {
++findAllProducers()
+}
+
+}
+
+}
+
+Main ..> MenuUI
+MenuUI ..> MainController
+Company *-- MapStore : owns
+Company *-- ExpedatingStore : owns
+Company *-- MapGraphPessoaStore : owns
+
+MainController ..> Company
+MainController ..> Expedating
+
+Expedating ..> FindMethods
+Expedating ..> Algorithms
+
+
+
+@enduml
+

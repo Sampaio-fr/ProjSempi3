@@ -1,0 +1,1707 @@
+Vertices:
+Pessoa: 
+Localidade = CT1; Coordenadas = 40.6389, -8.6553; Id: C1
+
+Pessoa: 
+Localidade = CT2; Coordenadas = 38.0333, -7.8833; Id: C2
+
+Pessoa: 
+Localidade = CT3; Coordenadas = 41.5333, -8.4167; Id: C3
+
+Pessoa: 
+Localidade = CT15; Coordenadas = 41.7, -8.8333; Id: C4
+
+Pessoa: 
+Localidade = CT16; Coordenadas = 41.3002, -7.7398; Id: C5
+
+Pessoa: 
+Localidade = CT12; Coordenadas = 41.1495, -8.6108; Id: C6
+
+Pessoa: 
+Localidade = CT7; Coordenadas = 38.5667, -7.9; Id: C7
+
+Pessoa: 
+Localidade = CT8; Coordenadas = 37.0161, -7.935; Id: C8
+
+Pessoa: 
+Localidade = CT13; Coordenadas = 39.2369, -8.685; Id: C9
+
+Pessoa: 
+Localidade = CT14; Coordenadas = 38.5243, -8.8926; Id: E1
+
+Pessoa: 
+Localidade = CT11; Coordenadas = 39.3167, -7.4167; Id: E2
+
+Pessoa: 
+Localidade = CT5; Coordenadas = 39.823, -7.4931; Id: E3
+
+Pessoa: 
+Localidade = CT9; Coordenadas = 40.5364, -7.2683; Id: E4
+
+Pessoa: 
+Localidade = CT4; Coordenadas = 41.8, -6.75; Id: E5
+
+Pessoa: 
+Localidade = CT17; Coordenadas = 40.6667, -7.9167; Id: P1
+
+Pessoa: 
+Localidade = CT6; Coordenadas = 40.2111, -8.4291; Id: P2
+
+Pessoa: 
+Localidade = CT10; Coordenadas = 39.7444, -8.8072; Id: P3
+
+
+Matrix:
+   |  0  |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |  10  |  11  |  12  |  13  |  14  |  15  |  16 
+ 0 |     |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  
+ 1 |  X  |     |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  
+ 2 |  X  |  X  |     |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  
+ 3 |  X  |  X  |  X  |     |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  
+ 4 |  X  |  X  |  X  |  X  |     |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  
+ 5 |  X  |  X  |  X  |  X  |  X  |     |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  
+ 6 |  X  |  X  |  X  |  X  |  X  |  X  |     |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  
+ 7 |  X  |  X  |  X  |  X  |  X  |  X  |  X  |     |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  
+ 8 |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |     |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  
+ 9 |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |     |  X  |  X  |  X  |  X  |  X  |  X  |  X  
+ 10 |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |     |  X  |  X  |  X  |  X  |  X  |  X  
+ 11 |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |     |  X  |  X  |  X  |  X  |  X  
+ 12 |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |     |  X  |  X  |  X  |  X  
+ 13 |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |     |  X  |  X  |  X  
+ 14 |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |     |  X  |  X  
+ 15 |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |     |  X  
+ 16 |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |  X  |     
+
+Edges:
+From 0 to 1-> Pessoa: 
+Localidade = CT1; Coordenadas = 40.6389, -8.6553; Id: C1
+ -> Pessoa: 
+Localidade = CT2; Coordenadas = 38.0333, -7.8833; Id: C2
+
+Weight: 351556
+From 0 to 2-> Pessoa: 
+Localidade = CT1; Coordenadas = 40.6389, -8.6553; Id: C1
+ -> Pessoa: 
+Localidade = CT3; Coordenadas = 41.5333, -8.4167; Id: C3
+
+Weight: 113344
+From 0 to 3-> Pessoa: 
+Localidade = CT1; Coordenadas = 40.6389, -8.6553; Id: C1
+ -> Pessoa: 
+Localidade = CT15; Coordenadas = 41.7, -8.8333; Id: C4
+
+Weight: 133594
+From 0 to 4-> Pessoa: 
+Localidade = CT1; Coordenadas = 40.6389, -8.6553; Id: C1
+ -> Pessoa: 
+Localidade = CT16; Coordenadas = 41.3002, -7.7398; Id: C5
+
+Weight: 145873
+From 0 to 5-> Pessoa: 
+Localidade = CT1; Coordenadas = 40.6389, -8.6553; Id: C1
+ -> Pessoa: 
+Localidade = CT12; Coordenadas = 41.1495, -8.6108; Id: C6
+
+Weight: 62877
+From 0 to 6-> Pessoa: 
+Localidade = CT1; Coordenadas = 40.6389, -8.6553; Id: C1
+ -> Pessoa: 
+Localidade = CT7; Coordenadas = 38.5667, -7.9; Id: C7
+
+Weight: 285982
+From 0 to 7-> Pessoa: 
+Localidade = CT1; Coordenadas = 40.6389, -8.6553; Id: C1
+ -> Pessoa: 
+Localidade = CT8; Coordenadas = 37.0161, -7.935; Id: C8
+
+Weight: 471667
+From 0 to 8-> Pessoa: 
+Localidade = CT1; Coordenadas = 40.6389, -8.6553; Id: C1
+ -> Pessoa: 
+Localidade = CT13; Coordenadas = 39.2369, -8.685; Id: C9
+
+Weight: 174296
+From 0 to 9-> Pessoa: 
+Localidade = CT1; Coordenadas = 40.6389, -8.6553; Id: C1
+ -> Pessoa: 
+Localidade = CT14; Coordenadas = 38.5243, -8.8926; Id: E1
+
+Weight: 264109
+From 0 to 10-> Pessoa: 
+Localidade = CT1; Coordenadas = 40.6389, -8.6553; Id: C1
+ -> Pessoa: 
+Localidade = CT11; Coordenadas = 39.3167, -7.4167; Id: E2
+
+Weight: 219935
+From 0 to 11-> Pessoa: 
+Localidade = CT1; Coordenadas = 40.6389, -8.6553; Id: C1
+ -> Pessoa: 
+Localidade = CT5; Coordenadas = 39.823, -7.4931; Id: E3
+
+Weight: 157280
+From 0 to 12-> Pessoa: 
+Localidade = CT1; Coordenadas = 40.6389, -8.6553; Id: C1
+ -> Pessoa: 
+Localidade = CT9; Coordenadas = 40.5364, -7.2683; Id: E4
+
+Weight: 132161
+From 0 to 13-> Pessoa: 
+Localidade = CT1; Coordenadas = 40.6389, -8.6553; Id: C1
+ -> Pessoa: 
+Localidade = CT4; Coordenadas = 41.8, -6.75; Id: E5
+
+Weight: 256006
+From 0 to 14-> Pessoa: 
+Localidade = CT1; Coordenadas = 40.6389, -8.6553; Id: C1
+ -> Pessoa: 
+Localidade = CT17; Coordenadas = 40.6667, -7.9167; Id: P1
+
+Weight: 69282
+From 0 to 15-> Pessoa: 
+Localidade = CT1; Coordenadas = 40.6389, -8.6553; Id: C1
+ -> Pessoa: 
+Localidade = CT6; Coordenadas = 40.2111, -8.4291; Id: P2
+
+Weight: 56717
+From 0 to 16-> Pessoa: 
+Localidade = CT1; Coordenadas = 40.6389, -8.6553; Id: C1
+ -> Pessoa: 
+Localidade = CT10; Coordenadas = 39.7444, -8.8072; Id: P3
+
+Weight: 110848
+From 1 to 0-> Pessoa: 
+Localidade = CT2; Coordenadas = 38.0333, -7.8833; Id: C2
+ -> Pessoa: 
+Localidade = CT1; Coordenadas = 40.6389, -8.6553; Id: C1
+
+Weight: 351556
+From 1 to 2-> Pessoa: 
+Localidade = CT2; Coordenadas = 38.0333, -7.8833; Id: C2
+ -> Pessoa: 
+Localidade = CT3; Coordenadas = 41.5333, -8.4167; Id: C3
+
+Weight: 464900
+From 1 to 3-> Pessoa: 
+Localidade = CT2; Coordenadas = 38.0333, -7.8833; Id: C2
+ -> Pessoa: 
+Localidade = CT15; Coordenadas = 41.7, -8.8333; Id: C4
+
+Weight: 485150
+From 1 to 4-> Pessoa: 
+Localidade = CT2; Coordenadas = 38.0333, -7.8833; Id: C2
+ -> Pessoa: 
+Localidade = CT16; Coordenadas = 41.3002, -7.7398; Id: C5
+
+Weight: 417345
+From 1 to 5-> Pessoa: 
+Localidade = CT2; Coordenadas = 38.0333, -7.8833; Id: C2
+ -> Pessoa: 
+Localidade = CT12; Coordenadas = 41.1495, -8.6108; Id: C6
+
+Weight: 414433
+From 1 to 6-> Pessoa: 
+Localidade = CT2; Coordenadas = 38.0333, -7.8833; Id: C2
+ -> Pessoa: 
+Localidade = CT7; Coordenadas = 38.5667, -7.9; Id: C7
+
+Weight: 65574
+From 1 to 7-> Pessoa: 
+Localidade = CT2; Coordenadas = 38.0333, -7.8833; Id: C2
+ -> Pessoa: 
+Localidade = CT8; Coordenadas = 37.0161, -7.935; Id: C8
+
+Weight: 125105
+From 1 to 8-> Pessoa: 
+Localidade = CT2; Coordenadas = 38.0333, -7.8833; Id: C2
+ -> Pessoa: 
+Localidade = CT13; Coordenadas = 39.2369, -8.685; Id: C9
+
+Weight: 177260
+From 1 to 9-> Pessoa: 
+Localidade = CT2; Coordenadas = 38.0333, -7.8833; Id: C2
+ -> Pessoa: 
+Localidade = CT14; Coordenadas = 38.5243, -8.8926; Id: E1
+
+Weight: 114913
+From 1 to 10-> Pessoa: 
+Localidade = CT2; Coordenadas = 38.0333, -7.8833; Id: C2
+ -> Pessoa: 
+Localidade = CT11; Coordenadas = 39.3167, -7.4167; Id: E2
+
+Weight: 163996
+From 1 to 11-> Pessoa: 
+Localidade = CT2; Coordenadas = 38.0333, -7.8833; Id: C2
+ -> Pessoa: 
+Localidade = CT5; Coordenadas = 39.823, -7.4931; Id: E3
+
+Weight: 226651
+From 1 to 12-> Pessoa: 
+Localidade = CT2; Coordenadas = 38.0333, -7.8833; Id: C2
+ -> Pessoa: 
+Localidade = CT9; Coordenadas = 40.5364, -7.2683; Id: E4
+
+Weight: 316837
+From 1 to 13-> Pessoa: 
+Localidade = CT2; Coordenadas = 38.0333, -7.8833; Id: C2
+ -> Pessoa: 
+Localidade = CT4; Coordenadas = 41.8, -6.75; Id: E5
+
+Weight: 479364
+From 1 to 14-> Pessoa: 
+Localidade = CT2; Coordenadas = 38.0333, -7.8833; Id: C2
+ -> Pessoa: 
+Localidade = CT17; Coordenadas = 40.6667, -7.9167; Id: P1
+
+Weight: 337785
+From 1 to 15-> Pessoa: 
+Localidade = CT2; Coordenadas = 38.0333, -7.8833; Id: C2
+ -> Pessoa: 
+Localidade = CT6; Coordenadas = 40.2111, -8.4291; Id: P2
+
+Weight: 308292
+From 1 to 16-> Pessoa: 
+Localidade = CT2; Coordenadas = 38.0333, -7.8833; Id: C2
+ -> Pessoa: 
+Localidade = CT10; Coordenadas = 39.7444, -8.8072; Id: P3
+
+Weight: 240708
+From 2 to 0-> Pessoa: 
+Localidade = CT3; Coordenadas = 41.5333, -8.4167; Id: C3
+ -> Pessoa: 
+Localidade = CT1; Coordenadas = 40.6389, -8.6553; Id: C1
+
+Weight: 113344
+From 2 to 1-> Pessoa: 
+Localidade = CT3; Coordenadas = 41.5333, -8.4167; Id: C3
+ -> Pessoa: 
+Localidade = CT2; Coordenadas = 38.0333, -7.8833; Id: C2
+
+Weight: 464900
+From 2 to 3-> Pessoa: 
+Localidade = CT3; Coordenadas = 41.5333, -8.4167; Id: C3
+ -> Pessoa: 
+Localidade = CT15; Coordenadas = 41.7, -8.8333; Id: C4
+
+Weight: 43598
+From 2 to 4-> Pessoa: 
+Localidade = CT3; Coordenadas = 41.5333, -8.4167; Id: C3
+ -> Pessoa: 
+Localidade = CT16; Coordenadas = 41.3002, -7.7398; Id: C5
+
+Weight: 68957
+From 2 to 5-> Pessoa: 
+Localidade = CT3; Coordenadas = 41.5333, -8.4167; Id: C3
+ -> Pessoa: 
+Localidade = CT12; Coordenadas = 41.1495, -8.6108; Id: C6
+
+Weight: 50467
+From 2 to 6-> Pessoa: 
+Localidade = CT3; Coordenadas = 41.5333, -8.4167; Id: C3
+ -> Pessoa: 
+Localidade = CT7; Coordenadas = 38.5667, -7.9; Id: C7
+
+Weight: 399326
+From 2 to 7-> Pessoa: 
+Localidade = CT3; Coordenadas = 41.5333, -8.4167; Id: C3
+ -> Pessoa: 
+Localidade = CT8; Coordenadas = 37.0161, -7.935; Id: C8
+
+Weight: 585011
+From 2 to 8-> Pessoa: 
+Localidade = CT3; Coordenadas = 41.5333, -8.4167; Id: C3
+ -> Pessoa: 
+Localidade = CT13; Coordenadas = 39.2369, -8.685; Id: C9
+
+Weight: 287640
+From 2 to 9-> Pessoa: 
+Localidade = CT3; Coordenadas = 41.5333, -8.4167; Id: C3
+ -> Pessoa: 
+Localidade = CT14; Coordenadas = 38.5243, -8.8926; Id: E1
+
+Weight: 377453
+From 2 to 10-> Pessoa: 
+Localidade = CT3; Coordenadas = 41.5333, -8.4167; Id: C3
+ -> Pessoa: 
+Localidade = CT11; Coordenadas = 39.3167, -7.4167; Id: E2
+
+Weight: 322306
+From 2 to 11-> Pessoa: 
+Localidade = CT3; Coordenadas = 41.5333, -8.4167; Id: C3
+ -> Pessoa: 
+Localidade = CT5; Coordenadas = 39.823, -7.4931; Id: E3
+
+Weight: 259651
+From 2 to 12-> Pessoa: 
+Localidade = CT3; Coordenadas = 41.5333, -8.4167; Id: C3
+ -> Pessoa: 
+Localidade = CT9; Coordenadas = 40.5364, -7.2683; Id: E4
+
+Weight: 172661
+From 2 to 13-> Pessoa: 
+Localidade = CT3; Coordenadas = 41.5333, -8.4167; Id: C3
+ -> Pessoa: 
+Localidade = CT4; Coordenadas = 41.8, -6.75; Id: E5
+
+Weight: 157223
+From 2 to 14-> Pessoa: 
+Localidade = CT3; Coordenadas = 41.5333, -8.4167; Id: C3
+ -> Pessoa: 
+Localidade = CT17; Coordenadas = 40.6667, -7.9167; Id: P1
+
+Weight: 148517
+From 2 to 15-> Pessoa: 
+Localidade = CT3; Coordenadas = 41.5333, -8.4167; Id: C3
+ -> Pessoa: 
+Localidade = CT6; Coordenadas = 40.2111, -8.4291; Id: P2
+
+Weight: 170061
+From 2 to 16-> Pessoa: 
+Localidade = CT3; Coordenadas = 41.5333, -8.4167; Id: C3
+ -> Pessoa: 
+Localidade = CT10; Coordenadas = 39.7444, -8.8072; Id: P3
+
+Weight: 224192
+From 3 to 0-> Pessoa: 
+Localidade = CT15; Coordenadas = 41.7, -8.8333; Id: C4
+ -> Pessoa: 
+Localidade = CT1; Coordenadas = 40.6389, -8.6553; Id: C1
+
+Weight: 133594
+From 3 to 1-> Pessoa: 
+Localidade = CT15; Coordenadas = 41.7, -8.8333; Id: C4
+ -> Pessoa: 
+Localidade = CT2; Coordenadas = 38.0333, -7.8833; Id: C2
+
+Weight: 485150
+From 3 to 2-> Pessoa: 
+Localidade = CT15; Coordenadas = 41.7, -8.8333; Id: C4
+ -> Pessoa: 
+Localidade = CT3; Coordenadas = 41.5333, -8.4167; Id: C3
+
+Weight: 43598
+From 3 to 4-> Pessoa: 
+Localidade = CT15; Coordenadas = 41.7, -8.8333; Id: C4
+ -> Pessoa: 
+Localidade = CT16; Coordenadas = 41.3002, -7.7398; Id: C5
+
+Weight: 112555
+From 3 to 5-> Pessoa: 
+Localidade = CT15; Coordenadas = 41.7, -8.8333; Id: C4
+ -> Pessoa: 
+Localidade = CT12; Coordenadas = 41.1495, -8.6108; Id: C6
+
+Weight: 70717
+From 3 to 6-> Pessoa: 
+Localidade = CT15; Coordenadas = 41.7, -8.8333; Id: C4
+ -> Pessoa: 
+Localidade = CT7; Coordenadas = 38.5667, -7.9; Id: C7
+
+Weight: 419576
+From 3 to 7-> Pessoa: 
+Localidade = CT15; Coordenadas = 41.7, -8.8333; Id: C4
+ -> Pessoa: 
+Localidade = CT8; Coordenadas = 37.0161, -7.935; Id: C8
+
+Weight: 605261
+From 3 to 8-> Pessoa: 
+Localidade = CT15; Coordenadas = 41.7, -8.8333; Id: C4
+ -> Pessoa: 
+Localidade = CT13; Coordenadas = 39.2369, -8.685; Id: C9
+
+Weight: 307890
+From 3 to 9-> Pessoa: 
+Localidade = CT15; Coordenadas = 41.7, -8.8333; Id: C4
+ -> Pessoa: 
+Localidade = CT14; Coordenadas = 38.5243, -8.8926; Id: E1
+
+Weight: 397703
+From 3 to 10-> Pessoa: 
+Localidade = CT15; Coordenadas = 41.7, -8.8333; Id: C4
+ -> Pessoa: 
+Localidade = CT11; Coordenadas = 39.3167, -7.4167; Id: E2
+
+Weight: 353529
+From 3 to 11-> Pessoa: 
+Localidade = CT15; Coordenadas = 41.7, -8.8333; Id: C4
+ -> Pessoa: 
+Localidade = CT5; Coordenadas = 39.823, -7.4931; Id: E3
+
+Weight: 290874
+From 3 to 12-> Pessoa: 
+Localidade = CT15; Coordenadas = 41.7, -8.8333; Id: C4
+ -> Pessoa: 
+Localidade = CT9; Coordenadas = 40.5364, -7.2683; Id: E4
+
+Weight: 216259
+From 3 to 13-> Pessoa: 
+Localidade = CT15; Coordenadas = 41.7, -8.8333; Id: C4
+ -> Pessoa: 
+Localidade = CT4; Coordenadas = 41.8, -6.75; Id: E5
+
+Weight: 200821
+From 3 to 14-> Pessoa: 
+Localidade = CT15; Coordenadas = 41.7, -8.8333; Id: C4
+ -> Pessoa: 
+Localidade = CT17; Coordenadas = 40.6667, -7.9167; Id: P1
+
+Weight: 192115
+From 3 to 15-> Pessoa: 
+Localidade = CT15; Coordenadas = 41.7, -8.8333; Id: C4
+ -> Pessoa: 
+Localidade = CT6; Coordenadas = 40.2111, -8.4291; Id: P2
+
+Weight: 190311
+From 3 to 16-> Pessoa: 
+Localidade = CT15; Coordenadas = 41.7, -8.8333; Id: C4
+ -> Pessoa: 
+Localidade = CT10; Coordenadas = 39.7444, -8.8072; Id: P3
+
+Weight: 244442
+From 4 to 0-> Pessoa: 
+Localidade = CT16; Coordenadas = 41.3002, -7.7398; Id: C5
+ -> Pessoa: 
+Localidade = CT1; Coordenadas = 40.6389, -8.6553; Id: C1
+
+Weight: 145873
+From 4 to 1-> Pessoa: 
+Localidade = CT16; Coordenadas = 41.3002, -7.7398; Id: C5
+ -> Pessoa: 
+Localidade = CT2; Coordenadas = 38.0333, -7.8833; Id: C2
+
+Weight: 417345
+From 4 to 2-> Pessoa: 
+Localidade = CT16; Coordenadas = 41.3002, -7.7398; Id: C5
+ -> Pessoa: 
+Localidade = CT3; Coordenadas = 41.5333, -8.4167; Id: C3
+
+Weight: 68957
+From 4 to 3-> Pessoa: 
+Localidade = CT16; Coordenadas = 41.3002, -7.7398; Id: C5
+ -> Pessoa: 
+Localidade = CT15; Coordenadas = 41.7, -8.8333; Id: C4
+
+Weight: 112555
+From 4 to 5-> Pessoa: 
+Localidade = CT16; Coordenadas = 41.3002, -7.7398; Id: C5
+ -> Pessoa: 
+Localidade = CT12; Coordenadas = 41.1495, -8.6108; Id: C6
+
+Weight: 82996
+From 4 to 6-> Pessoa: 
+Localidade = CT16; Coordenadas = 41.3002, -7.7398; Id: C5
+ -> Pessoa: 
+Localidade = CT7; Coordenadas = 38.5667, -7.9; Id: C7
+
+Weight: 396106
+From 4 to 7-> Pessoa: 
+Localidade = CT16; Coordenadas = 41.3002, -7.7398; Id: C5
+ -> Pessoa: 
+Localidade = CT8; Coordenadas = 37.0161, -7.935; Id: C8
+
+Weight: 542450
+From 4 to 8-> Pessoa: 
+Localidade = CT16; Coordenadas = 41.3002, -7.7398; Id: C5
+ -> Pessoa: 
+Localidade = CT13; Coordenadas = 39.2369, -8.685; Id: C9
+
+Weight: 284420
+From 4 to 9-> Pessoa: 
+Localidade = CT16; Coordenadas = 41.3002, -7.7398; Id: C5
+ -> Pessoa: 
+Localidade = CT14; Coordenadas = 38.5243, -8.8926; Id: E1
+
+Weight: 374233
+From 4 to 10-> Pessoa: 
+Localidade = CT16; Coordenadas = 41.3002, -7.7398; Id: C5
+ -> Pessoa: 
+Localidade = CT11; Coordenadas = 39.3167, -7.4167; Id: E2
+
+Weight: 253349
+From 4 to 11-> Pessoa: 
+Localidade = CT16; Coordenadas = 41.3002, -7.7398; Id: C5
+ -> Pessoa: 
+Localidade = CT5; Coordenadas = 39.823, -7.4931; Id: E3
+
+Weight: 190694
+From 4 to 12-> Pessoa: 
+Localidade = CT16; Coordenadas = 41.3002, -7.7398; Id: C5
+ -> Pessoa: 
+Localidade = CT9; Coordenadas = 40.5364, -7.2683; Id: E4
+
+Weight: 103704
+From 4 to 13-> Pessoa: 
+Localidade = CT16; Coordenadas = 41.3002, -7.7398; Id: C5
+ -> Pessoa: 
+Localidade = CT4; Coordenadas = 41.8, -6.75; Id: E5
+
+Weight: 110133
+From 4 to 14-> Pessoa: 
+Localidade = CT16; Coordenadas = 41.3002, -7.7398; Id: C5
+ -> Pessoa: 
+Localidade = CT17; Coordenadas = 40.6667, -7.9167; Id: P1
+
+Weight: 79560
+From 4 to 15-> Pessoa: 
+Localidade = CT16; Coordenadas = 41.3002, -7.7398; Id: C5
+ -> Pessoa: 
+Localidade = CT6; Coordenadas = 40.2111, -8.4291; Id: P2
+
+Weight: 153388
+From 4 to 16-> Pessoa: 
+Localidade = CT16; Coordenadas = 41.3002, -7.7398; Id: C5
+ -> Pessoa: 
+Localidade = CT10; Coordenadas = 39.7444, -8.8072; Id: P3
+
+Weight: 220972
+From 5 to 0-> Pessoa: 
+Localidade = CT12; Coordenadas = 41.1495, -8.6108; Id: C6
+ -> Pessoa: 
+Localidade = CT1; Coordenadas = 40.6389, -8.6553; Id: C1
+
+Weight: 62877
+From 5 to 1-> Pessoa: 
+Localidade = CT12; Coordenadas = 41.1495, -8.6108; Id: C6
+ -> Pessoa: 
+Localidade = CT2; Coordenadas = 38.0333, -7.8833; Id: C2
+
+Weight: 414433
+From 5 to 2-> Pessoa: 
+Localidade = CT12; Coordenadas = 41.1495, -8.6108; Id: C6
+ -> Pessoa: 
+Localidade = CT3; Coordenadas = 41.5333, -8.4167; Id: C3
+
+Weight: 50467
+From 5 to 3-> Pessoa: 
+Localidade = CT12; Coordenadas = 41.1495, -8.6108; Id: C6
+ -> Pessoa: 
+Localidade = CT15; Coordenadas = 41.7, -8.8333; Id: C4
+
+Weight: 70717
+From 5 to 4-> Pessoa: 
+Localidade = CT12; Coordenadas = 41.1495, -8.6108; Id: C6
+ -> Pessoa: 
+Localidade = CT16; Coordenadas = 41.3002, -7.7398; Id: C5
+
+Weight: 82996
+From 5 to 6-> Pessoa: 
+Localidade = CT12; Coordenadas = 41.1495, -8.6108; Id: C6
+ -> Pessoa: 
+Localidade = CT7; Coordenadas = 38.5667, -7.9; Id: C7
+
+Weight: 348859
+From 5 to 7-> Pessoa: 
+Localidade = CT12; Coordenadas = 41.1495, -8.6108; Id: C6
+ -> Pessoa: 
+Localidade = CT8; Coordenadas = 37.0161, -7.935; Id: C8
+
+Weight: 534544
+From 5 to 8-> Pessoa: 
+Localidade = CT12; Coordenadas = 41.1495, -8.6108; Id: C6
+ -> Pessoa: 
+Localidade = CT13; Coordenadas = 39.2369, -8.685; Id: C9
+
+Weight: 237173
+From 5 to 9-> Pessoa: 
+Localidade = CT12; Coordenadas = 41.1495, -8.6108; Id: C6
+ -> Pessoa: 
+Localidade = CT14; Coordenadas = 38.5243, -8.8926; Id: E1
+
+Weight: 326986
+From 5 to 10-> Pessoa: 
+Localidade = CT12; Coordenadas = 41.1495, -8.6108; Id: C6
+ -> Pessoa: 
+Localidade = CT11; Coordenadas = 39.3167, -7.4167; Id: E2
+
+Weight: 282812
+From 5 to 11-> Pessoa: 
+Localidade = CT12; Coordenadas = 41.1495, -8.6108; Id: C6
+ -> Pessoa: 
+Localidade = CT5; Coordenadas = 39.823, -7.4931; Id: E3
+
+Weight: 220157
+From 5 to 12-> Pessoa: 
+Localidade = CT12; Coordenadas = 41.1495, -8.6108; Id: C6
+ -> Pessoa: 
+Localidade = CT9; Coordenadas = 40.5364, -7.2683; Id: E4
+
+Weight: 186700
+From 5 to 13-> Pessoa: 
+Localidade = CT12; Coordenadas = 41.1495, -8.6108; Id: C6
+ -> Pessoa: 
+Localidade = CT4; Coordenadas = 41.8, -6.75; Id: E5
+
+Weight: 193129
+From 5 to 14-> Pessoa: 
+Localidade = CT12; Coordenadas = 41.1495, -8.6108; Id: C6
+ -> Pessoa: 
+Localidade = CT17; Coordenadas = 40.6667, -7.9167; Id: P1
+
+Weight: 132159
+From 5 to 15-> Pessoa: 
+Localidade = CT12; Coordenadas = 41.1495, -8.6108; Id: C6
+ -> Pessoa: 
+Localidade = CT6; Coordenadas = 40.2111, -8.4291; Id: P2
+
+Weight: 119594
+From 5 to 16-> Pessoa: 
+Localidade = CT12; Coordenadas = 41.1495, -8.6108; Id: C6
+ -> Pessoa: 
+Localidade = CT10; Coordenadas = 39.7444, -8.8072; Id: P3
+
+Weight: 173725
+From 6 to 0-> Pessoa: 
+Localidade = CT7; Coordenadas = 38.5667, -7.9; Id: C7
+ -> Pessoa: 
+Localidade = CT1; Coordenadas = 40.6389, -8.6553; Id: C1
+
+Weight: 285982
+From 6 to 1-> Pessoa: 
+Localidade = CT7; Coordenadas = 38.5667, -7.9; Id: C7
+ -> Pessoa: 
+Localidade = CT2; Coordenadas = 38.0333, -7.8833; Id: C2
+
+Weight: 65574
+From 6 to 2-> Pessoa: 
+Localidade = CT7; Coordenadas = 38.5667, -7.9; Id: C7
+ -> Pessoa: 
+Localidade = CT3; Coordenadas = 41.5333, -8.4167; Id: C3
+
+Weight: 399326
+From 6 to 3-> Pessoa: 
+Localidade = CT7; Coordenadas = 38.5667, -7.9; Id: C7
+ -> Pessoa: 
+Localidade = CT15; Coordenadas = 41.7, -8.8333; Id: C4
+
+Weight: 419576
+From 6 to 4-> Pessoa: 
+Localidade = CT7; Coordenadas = 38.5667, -7.9; Id: C7
+ -> Pessoa: 
+Localidade = CT16; Coordenadas = 41.3002, -7.7398; Id: C5
+
+Weight: 396106
+From 6 to 5-> Pessoa: 
+Localidade = CT7; Coordenadas = 38.5667, -7.9; Id: C7
+ -> Pessoa: 
+Localidade = CT12; Coordenadas = 41.1495, -8.6108; Id: C6
+
+Weight: 348859
+From 6 to 7-> Pessoa: 
+Localidade = CT7; Coordenadas = 38.5667, -7.9; Id: C7
+ -> Pessoa: 
+Localidade = CT8; Coordenadas = 37.0161, -7.935; Id: C8
+
+Weight: 190679
+From 6 to 8-> Pessoa: 
+Localidade = CT7; Coordenadas = 38.5667, -7.9; Id: C7
+ -> Pessoa: 
+Localidade = CT13; Coordenadas = 39.2369, -8.685; Id: C9
+
+Weight: 111686
+From 6 to 9-> Pessoa: 
+Localidade = CT7; Coordenadas = 38.5667, -7.9; Id: C7
+ -> Pessoa: 
+Localidade = CT14; Coordenadas = 38.5243, -8.8926; Id: E1
+
+Weight: 95957
+From 6 to 10-> Pessoa: 
+Localidade = CT7; Coordenadas = 38.5667, -7.9; Id: C7
+ -> Pessoa: 
+Localidade = CT11; Coordenadas = 39.3167, -7.4167; Id: E2
+
+Weight: 229570
+From 6 to 11-> Pessoa: 
+Localidade = CT7; Coordenadas = 38.5667, -7.9; Id: C7
+ -> Pessoa: 
+Localidade = CT5; Coordenadas = 39.823, -7.4931; Id: E3
+
+Weight: 292225
+From 6 to 12-> Pessoa: 
+Localidade = CT7; Coordenadas = 38.5667, -7.9; Id: C7
+ -> Pessoa: 
+Localidade = CT9; Coordenadas = 40.5364, -7.2683; Id: E4
+
+Weight: 379425
+From 6 to 13-> Pessoa: 
+Localidade = CT7; Coordenadas = 38.5667, -7.9; Id: C7
+ -> Pessoa: 
+Localidade = CT4; Coordenadas = 41.8, -6.75; Id: E5
+
+Weight: 506239
+From 6 to 14-> Pessoa: 
+Localidade = CT7; Coordenadas = 38.5667, -7.9; Id: C7
+ -> Pessoa: 
+Localidade = CT17; Coordenadas = 40.6667, -7.9167; Id: P1
+
+Weight: 316546
+From 6 to 15-> Pessoa: 
+Localidade = CT7; Coordenadas = 38.5667, -7.9; Id: C7
+ -> Pessoa: 
+Localidade = CT6; Coordenadas = 40.2111, -8.4291; Id: P2
+
+Weight: 242718
+From 6 to 16-> Pessoa: 
+Localidade = CT7; Coordenadas = 38.5667, -7.9; Id: C7
+ -> Pessoa: 
+Localidade = CT10; Coordenadas = 39.7444, -8.8072; Id: P3
+
+Weight: 175134
+From 7 to 0-> Pessoa: 
+Localidade = CT8; Coordenadas = 37.0161, -7.935; Id: C8
+ -> Pessoa: 
+Localidade = CT1; Coordenadas = 40.6389, -8.6553; Id: C1
+
+Weight: 471667
+From 7 to 1-> Pessoa: 
+Localidade = CT8; Coordenadas = 37.0161, -7.935; Id: C8
+ -> Pessoa: 
+Localidade = CT2; Coordenadas = 38.0333, -7.8833; Id: C2
+
+Weight: 125105
+From 7 to 2-> Pessoa: 
+Localidade = CT8; Coordenadas = 37.0161, -7.935; Id: C8
+ -> Pessoa: 
+Localidade = CT3; Coordenadas = 41.5333, -8.4167; Id: C3
+
+Weight: 585011
+From 7 to 3-> Pessoa: 
+Localidade = CT8; Coordenadas = 37.0161, -7.935; Id: C8
+ -> Pessoa: 
+Localidade = CT15; Coordenadas = 41.7, -8.8333; Id: C4
+
+Weight: 605261
+From 7 to 4-> Pessoa: 
+Localidade = CT8; Coordenadas = 37.0161, -7.935; Id: C8
+ -> Pessoa: 
+Localidade = CT16; Coordenadas = 41.3002, -7.7398; Id: C5
+
+Weight: 542450
+From 7 to 5-> Pessoa: 
+Localidade = CT8; Coordenadas = 37.0161, -7.935; Id: C8
+ -> Pessoa: 
+Localidade = CT12; Coordenadas = 41.1495, -8.6108; Id: C6
+
+Weight: 534544
+From 7 to 6-> Pessoa: 
+Localidade = CT8; Coordenadas = 37.0161, -7.935; Id: C8
+ -> Pessoa: 
+Localidade = CT7; Coordenadas = 38.5667, -7.9; Id: C7
+
+Weight: 190679
+From 7 to 8-> Pessoa: 
+Localidade = CT8; Coordenadas = 37.0161, -7.935; Id: C8
+ -> Pessoa: 
+Localidade = CT13; Coordenadas = 39.2369, -8.685; Id: C9
+
+Weight: 297371
+From 7 to 9-> Pessoa: 
+Localidade = CT8; Coordenadas = 37.0161, -7.935; Id: C8
+ -> Pessoa: 
+Localidade = CT14; Coordenadas = 38.5243, -8.8926; Id: E1
+
+Weight: 207558
+From 7 to 10-> Pessoa: 
+Localidade = CT8; Coordenadas = 37.0161, -7.935; Id: C8
+ -> Pessoa: 
+Localidade = CT11; Coordenadas = 39.3167, -7.4167; Id: E2
+
+Weight: 289101
+From 7 to 11-> Pessoa: 
+Localidade = CT8; Coordenadas = 37.0161, -7.935; Id: C8
+ -> Pessoa: 
+Localidade = CT5; Coordenadas = 39.823, -7.4931; Id: E3
+
+Weight: 351756
+From 7 to 12-> Pessoa: 
+Localidade = CT8; Coordenadas = 37.0161, -7.935; Id: C8
+ -> Pessoa: 
+Localidade = CT9; Coordenadas = 40.5364, -7.2683; Id: E4
+
+Weight: 441942
+From 7 to 13-> Pessoa: 
+Localidade = CT8; Coordenadas = 37.0161, -7.935; Id: C8
+ -> Pessoa: 
+Localidade = CT4; Coordenadas = 41.8, -6.75; Id: E5
+
+Weight: 604469
+From 7 to 14-> Pessoa: 
+Localidade = CT8; Coordenadas = 37.0161, -7.935; Id: C8
+ -> Pessoa: 
+Localidade = CT17; Coordenadas = 40.6667, -7.9167; Id: P1
+
+Weight: 462890
+From 7 to 15-> Pessoa: 
+Localidade = CT8; Coordenadas = 37.0161, -7.935; Id: C8
+ -> Pessoa: 
+Localidade = CT6; Coordenadas = 40.2111, -8.4291; Id: P2
+
+Weight: 428403
+From 7 to 16-> Pessoa: 
+Localidade = CT8; Coordenadas = 37.0161, -7.935; Id: C8
+ -> Pessoa: 
+Localidade = CT10; Coordenadas = 39.7444, -8.8072; Id: P3
+
+Weight: 360819
+From 8 to 0-> Pessoa: 
+Localidade = CT13; Coordenadas = 39.2369, -8.685; Id: C9
+ -> Pessoa: 
+Localidade = CT1; Coordenadas = 40.6389, -8.6553; Id: C1
+
+Weight: 174296
+From 8 to 1-> Pessoa: 
+Localidade = CT13; Coordenadas = 39.2369, -8.685; Id: C9
+ -> Pessoa: 
+Localidade = CT2; Coordenadas = 38.0333, -7.8833; Id: C2
+
+Weight: 177260
+From 8 to 2-> Pessoa: 
+Localidade = CT13; Coordenadas = 39.2369, -8.685; Id: C9
+ -> Pessoa: 
+Localidade = CT3; Coordenadas = 41.5333, -8.4167; Id: C3
+
+Weight: 287640
+From 8 to 3-> Pessoa: 
+Localidade = CT13; Coordenadas = 39.2369, -8.685; Id: C9
+ -> Pessoa: 
+Localidade = CT15; Coordenadas = 41.7, -8.8333; Id: C4
+
+Weight: 307890
+From 8 to 4-> Pessoa: 
+Localidade = CT13; Coordenadas = 39.2369, -8.685; Id: C9
+ -> Pessoa: 
+Localidade = CT16; Coordenadas = 41.3002, -7.7398; Id: C5
+
+Weight: 284420
+From 8 to 5-> Pessoa: 
+Localidade = CT13; Coordenadas = 39.2369, -8.685; Id: C9
+ -> Pessoa: 
+Localidade = CT12; Coordenadas = 41.1495, -8.6108; Id: C6
+
+Weight: 237173
+From 8 to 6-> Pessoa: 
+Localidade = CT13; Coordenadas = 39.2369, -8.685; Id: C9
+ -> Pessoa: 
+Localidade = CT7; Coordenadas = 38.5667, -7.9; Id: C7
+
+Weight: 111686
+From 8 to 7-> Pessoa: 
+Localidade = CT13; Coordenadas = 39.2369, -8.685; Id: C9
+ -> Pessoa: 
+Localidade = CT8; Coordenadas = 37.0161, -7.935; Id: C8
+
+Weight: 297371
+From 8 to 9-> Pessoa: 
+Localidade = CT13; Coordenadas = 39.2369, -8.685; Id: C9
+ -> Pessoa: 
+Localidade = CT14; Coordenadas = 38.5243, -8.8926; Id: E1
+
+Weight: 89813
+From 8 to 10-> Pessoa: 
+Localidade = CT13; Coordenadas = 39.2369, -8.685; Id: C9
+ -> Pessoa: 
+Localidade = CT11; Coordenadas = 39.3167, -7.4167; Id: E2
+
+Weight: 121584
+From 8 to 11-> Pessoa: 
+Localidade = CT13; Coordenadas = 39.2369, -8.685; Id: C9
+ -> Pessoa: 
+Localidade = CT5; Coordenadas = 39.823, -7.4931; Id: E3
+
+Weight: 184239
+From 8 to 12-> Pessoa: 
+Localidade = CT13; Coordenadas = 39.2369, -8.685; Id: C9
+ -> Pessoa: 
+Localidade = CT9; Coordenadas = 40.5364, -7.2683; Id: E4
+
+Weight: 267739
+From 8 to 13-> Pessoa: 
+Localidade = CT13; Coordenadas = 39.2369, -8.685; Id: C9
+ -> Pessoa: 
+Localidade = CT4; Coordenadas = 41.8, -6.75; Id: E5
+
+Weight: 394553
+From 8 to 14-> Pessoa: 
+Localidade = CT13; Coordenadas = 39.2369, -8.685; Id: C9
+ -> Pessoa: 
+Localidade = CT17; Coordenadas = 40.6667, -7.9167; Id: P1
+
+Weight: 204860
+From 8 to 15-> Pessoa: 
+Localidade = CT13; Coordenadas = 39.2369, -8.685; Id: C9
+ -> Pessoa: 
+Localidade = CT6; Coordenadas = 40.2111, -8.4291; Id: P2
+
+Weight: 131032
+From 8 to 16-> Pessoa: 
+Localidade = CT13; Coordenadas = 39.2369, -8.685; Id: C9
+ -> Pessoa: 
+Localidade = CT10; Coordenadas = 39.7444, -8.8072; Id: P3
+
+Weight: 63448
+From 9 to 0-> Pessoa: 
+Localidade = CT14; Coordenadas = 38.5243, -8.8926; Id: E1
+ -> Pessoa: 
+Localidade = CT1; Coordenadas = 40.6389, -8.6553; Id: C1
+
+Weight: 264109
+From 9 to 1-> Pessoa: 
+Localidade = CT14; Coordenadas = 38.5243, -8.8926; Id: E1
+ -> Pessoa: 
+Localidade = CT2; Coordenadas = 38.0333, -7.8833; Id: C2
+
+Weight: 114913
+From 9 to 2-> Pessoa: 
+Localidade = CT14; Coordenadas = 38.5243, -8.8926; Id: E1
+ -> Pessoa: 
+Localidade = CT3; Coordenadas = 41.5333, -8.4167; Id: C3
+
+Weight: 377453
+From 9 to 3-> Pessoa: 
+Localidade = CT14; Coordenadas = 38.5243, -8.8926; Id: E1
+ -> Pessoa: 
+Localidade = CT15; Coordenadas = 41.7, -8.8333; Id: C4
+
+Weight: 397703
+From 9 to 4-> Pessoa: 
+Localidade = CT14; Coordenadas = 38.5243, -8.8926; Id: E1
+ -> Pessoa: 
+Localidade = CT16; Coordenadas = 41.3002, -7.7398; Id: C5
+
+Weight: 374233
+From 9 to 5-> Pessoa: 
+Localidade = CT14; Coordenadas = 38.5243, -8.8926; Id: E1
+ -> Pessoa: 
+Localidade = CT12; Coordenadas = 41.1495, -8.6108; Id: C6
+
+Weight: 326986
+From 9 to 6-> Pessoa: 
+Localidade = CT14; Coordenadas = 38.5243, -8.8926; Id: E1
+ -> Pessoa: 
+Localidade = CT7; Coordenadas = 38.5667, -7.9; Id: C7
+
+Weight: 95957
+From 9 to 7-> Pessoa: 
+Localidade = CT14; Coordenadas = 38.5243, -8.8926; Id: E1
+ -> Pessoa: 
+Localidade = CT8; Coordenadas = 37.0161, -7.935; Id: C8
+
+Weight: 207558
+From 9 to 8-> Pessoa: 
+Localidade = CT14; Coordenadas = 38.5243, -8.8926; Id: E1
+ -> Pessoa: 
+Localidade = CT13; Coordenadas = 39.2369, -8.685; Id: C9
+
+Weight: 89813
+From 9 to 10-> Pessoa: 
+Localidade = CT14; Coordenadas = 38.5243, -8.8926; Id: E1
+ -> Pessoa: 
+Localidade = CT11; Coordenadas = 39.3167, -7.4167; Id: E2
+
+Weight: 211397
+From 9 to 11-> Pessoa: 
+Localidade = CT14; Coordenadas = 38.5243, -8.8926; Id: E1
+ -> Pessoa: 
+Localidade = CT5; Coordenadas = 39.823, -7.4931; Id: E3
+
+Weight: 274052
+From 9 to 12-> Pessoa: 
+Localidade = CT14; Coordenadas = 38.5243, -8.8926; Id: E1
+ -> Pessoa: 
+Localidade = CT9; Coordenadas = 40.5364, -7.2683; Id: E4
+
+Weight: 357552
+From 9 to 13-> Pessoa: 
+Localidade = CT14; Coordenadas = 38.5243, -8.8926; Id: E1
+ -> Pessoa: 
+Localidade = CT4; Coordenadas = 41.8, -6.75; Id: E5
+
+Weight: 484366
+From 9 to 14-> Pessoa: 
+Localidade = CT14; Coordenadas = 38.5243, -8.8926; Id: E1
+ -> Pessoa: 
+Localidade = CT17; Coordenadas = 40.6667, -7.9167; Id: P1
+
+Weight: 294673
+From 9 to 15-> Pessoa: 
+Localidade = CT14; Coordenadas = 38.5243, -8.8926; Id: E1
+ -> Pessoa: 
+Localidade = CT6; Coordenadas = 40.2111, -8.4291; Id: P2
+
+Weight: 220845
+From 9 to 16-> Pessoa: 
+Localidade = CT14; Coordenadas = 38.5243, -8.8926; Id: E1
+ -> Pessoa: 
+Localidade = CT10; Coordenadas = 39.7444, -8.8072; Id: P3
+
+Weight: 153261
+From 10 to 0-> Pessoa: 
+Localidade = CT11; Coordenadas = 39.3167, -7.4167; Id: E2
+ -> Pessoa: 
+Localidade = CT1; Coordenadas = 40.6389, -8.6553; Id: C1
+
+Weight: 219935
+From 10 to 1-> Pessoa: 
+Localidade = CT11; Coordenadas = 39.3167, -7.4167; Id: E2
+ -> Pessoa: 
+Localidade = CT2; Coordenadas = 38.0333, -7.8833; Id: C2
+
+Weight: 163996
+From 10 to 2-> Pessoa: 
+Localidade = CT11; Coordenadas = 39.3167, -7.4167; Id: E2
+ -> Pessoa: 
+Localidade = CT3; Coordenadas = 41.5333, -8.4167; Id: C3
+
+Weight: 322306
+From 10 to 3-> Pessoa: 
+Localidade = CT11; Coordenadas = 39.3167, -7.4167; Id: E2
+ -> Pessoa: 
+Localidade = CT15; Coordenadas = 41.7, -8.8333; Id: C4
+
+Weight: 353529
+From 10 to 4-> Pessoa: 
+Localidade = CT11; Coordenadas = 39.3167, -7.4167; Id: E2
+ -> Pessoa: 
+Localidade = CT16; Coordenadas = 41.3002, -7.7398; Id: C5
+
+Weight: 253349
+From 10 to 5-> Pessoa: 
+Localidade = CT11; Coordenadas = 39.3167, -7.4167; Id: E2
+ -> Pessoa: 
+Localidade = CT12; Coordenadas = 41.1495, -8.6108; Id: C6
+
+Weight: 282812
+From 10 to 6-> Pessoa: 
+Localidade = CT11; Coordenadas = 39.3167, -7.4167; Id: E2
+ -> Pessoa: 
+Localidade = CT7; Coordenadas = 38.5667, -7.9; Id: C7
+
+Weight: 229570
+From 10 to 7-> Pessoa: 
+Localidade = CT11; Coordenadas = 39.3167, -7.4167; Id: E2
+ -> Pessoa: 
+Localidade = CT8; Coordenadas = 37.0161, -7.935; Id: C8
+
+Weight: 289101
+From 10 to 8-> Pessoa: 
+Localidade = CT11; Coordenadas = 39.3167, -7.4167; Id: E2
+ -> Pessoa: 
+Localidade = CT13; Coordenadas = 39.2369, -8.685; Id: C9
+
+Weight: 121584
+From 10 to 9-> Pessoa: 
+Localidade = CT11; Coordenadas = 39.3167, -7.4167; Id: E2
+ -> Pessoa: 
+Localidade = CT14; Coordenadas = 38.5243, -8.8926; Id: E1
+
+Weight: 211397
+From 10 to 11-> Pessoa: 
+Localidade = CT11; Coordenadas = 39.3167, -7.4167; Id: E2
+ -> Pessoa: 
+Localidade = CT5; Coordenadas = 39.823, -7.4931; Id: E3
+
+Weight: 62655
+From 10 to 12-> Pessoa: 
+Localidade = CT11; Coordenadas = 39.3167, -7.4167; Id: E2
+ -> Pessoa: 
+Localidade = CT9; Coordenadas = 40.5364, -7.2683; Id: E4
+
+Weight: 152841
+From 10 to 13-> Pessoa: 
+Localidade = CT11; Coordenadas = 39.3167, -7.4167; Id: E2
+ -> Pessoa: 
+Localidade = CT4; Coordenadas = 41.8, -6.75; Id: E5
+
+Weight: 315368
+From 10 to 14-> Pessoa: 
+Localidade = CT11; Coordenadas = 39.3167, -7.4167; Id: E2
+ -> Pessoa: 
+Localidade = CT17; Coordenadas = 40.6667, -7.9167; Id: P1
+
+Weight: 173789
+From 10 to 15-> Pessoa: 
+Localidade = CT11; Coordenadas = 39.3167, -7.4167; Id: E2
+ -> Pessoa: 
+Localidade = CT6; Coordenadas = 40.2111, -8.4291; Id: P2
+
+Weight: 163218
+From 10 to 16-> Pessoa: 
+Localidade = CT11; Coordenadas = 39.3167, -7.4167; Id: E2
+ -> Pessoa: 
+Localidade = CT10; Coordenadas = 39.7444, -8.8072; Id: P3
+
+Weight: 142470
+From 11 to 0-> Pessoa: 
+Localidade = CT5; Coordenadas = 39.823, -7.4931; Id: E3
+ -> Pessoa: 
+Localidade = CT1; Coordenadas = 40.6389, -8.6553; Id: C1
+
+Weight: 157280
+From 11 to 1-> Pessoa: 
+Localidade = CT5; Coordenadas = 39.823, -7.4931; Id: E3
+ -> Pessoa: 
+Localidade = CT2; Coordenadas = 38.0333, -7.8833; Id: C2
+
+Weight: 226651
+From 11 to 2-> Pessoa: 
+Localidade = CT5; Coordenadas = 39.823, -7.4931; Id: E3
+ -> Pessoa: 
+Localidade = CT3; Coordenadas = 41.5333, -8.4167; Id: C3
+
+Weight: 259651
+From 11 to 3-> Pessoa: 
+Localidade = CT5; Coordenadas = 39.823, -7.4931; Id: E3
+ -> Pessoa: 
+Localidade = CT15; Coordenadas = 41.7, -8.8333; Id: C4
+
+Weight: 290874
+From 11 to 4-> Pessoa: 
+Localidade = CT5; Coordenadas = 39.823, -7.4931; Id: E3
+ -> Pessoa: 
+Localidade = CT16; Coordenadas = 41.3002, -7.7398; Id: C5
+
+Weight: 190694
+From 11 to 5-> Pessoa: 
+Localidade = CT5; Coordenadas = 39.823, -7.4931; Id: E3
+ -> Pessoa: 
+Localidade = CT12; Coordenadas = 41.1495, -8.6108; Id: C6
+
+Weight: 220157
+From 11 to 6-> Pessoa: 
+Localidade = CT5; Coordenadas = 39.823, -7.4931; Id: E3
+ -> Pessoa: 
+Localidade = CT7; Coordenadas = 38.5667, -7.9; Id: C7
+
+Weight: 292225
+From 11 to 7-> Pessoa: 
+Localidade = CT5; Coordenadas = 39.823, -7.4931; Id: E3
+ -> Pessoa: 
+Localidade = CT8; Coordenadas = 37.0161, -7.935; Id: C8
+
+Weight: 351756
+From 11 to 8-> Pessoa: 
+Localidade = CT5; Coordenadas = 39.823, -7.4931; Id: E3
+ -> Pessoa: 
+Localidade = CT13; Coordenadas = 39.2369, -8.685; Id: C9
+
+Weight: 184239
+From 11 to 9-> Pessoa: 
+Localidade = CT5; Coordenadas = 39.823, -7.4931; Id: E3
+ -> Pessoa: 
+Localidade = CT14; Coordenadas = 38.5243, -8.8926; Id: E1
+
+Weight: 274052
+From 11 to 10-> Pessoa: 
+Localidade = CT5; Coordenadas = 39.823, -7.4931; Id: E3
+ -> Pessoa: 
+Localidade = CT11; Coordenadas = 39.3167, -7.4167; Id: E2
+
+Weight: 62655
+From 11 to 12-> Pessoa: 
+Localidade = CT5; Coordenadas = 39.823, -7.4931; Id: E3
+ -> Pessoa: 
+Localidade = CT9; Coordenadas = 40.5364, -7.2683; Id: E4
+
+Weight: 90186
+From 11 to 13-> Pessoa: 
+Localidade = CT5; Coordenadas = 39.823, -7.4931; Id: E3
+ -> Pessoa: 
+Localidade = CT4; Coordenadas = 41.8, -6.75; Id: E5
+
+Weight: 252713
+From 11 to 14-> Pessoa: 
+Localidade = CT5; Coordenadas = 39.823, -7.4931; Id: E3
+ -> Pessoa: 
+Localidade = CT17; Coordenadas = 40.6667, -7.9167; Id: P1
+
+Weight: 111134
+From 11 to 15-> Pessoa: 
+Localidade = CT5; Coordenadas = 39.823, -7.4931; Id: E3
+ -> Pessoa: 
+Localidade = CT6; Coordenadas = 40.2111, -8.4291; Id: P2
+
+Weight: 100563
+From 11 to 16-> Pessoa: 
+Localidade = CT5; Coordenadas = 39.823, -7.4931; Id: E3
+ -> Pessoa: 
+Localidade = CT10; Coordenadas = 39.7444, -8.8072; Id: P3
+
+Weight: 125041
+From 12 to 0-> Pessoa: 
+Localidade = CT9; Coordenadas = 40.5364, -7.2683; Id: E4
+ -> Pessoa: 
+Localidade = CT1; Coordenadas = 40.6389, -8.6553; Id: C1
+
+Weight: 132161
+From 12 to 1-> Pessoa: 
+Localidade = CT9; Coordenadas = 40.5364, -7.2683; Id: E4
+ -> Pessoa: 
+Localidade = CT2; Coordenadas = 38.0333, -7.8833; Id: C2
+
+Weight: 316837
+From 12 to 2-> Pessoa: 
+Localidade = CT9; Coordenadas = 40.5364, -7.2683; Id: E4
+ -> Pessoa: 
+Localidade = CT3; Coordenadas = 41.5333, -8.4167; Id: C3
+
+Weight: 172661
+From 12 to 3-> Pessoa: 
+Localidade = CT9; Coordenadas = 40.5364, -7.2683; Id: E4
+ -> Pessoa: 
+Localidade = CT15; Coordenadas = 41.7, -8.8333; Id: C4
+
+Weight: 216259
+From 12 to 4-> Pessoa: 
+Localidade = CT9; Coordenadas = 40.5364, -7.2683; Id: E4
+ -> Pessoa: 
+Localidade = CT16; Coordenadas = 41.3002, -7.7398; Id: C5
+
+Weight: 103704
+From 12 to 5-> Pessoa: 
+Localidade = CT9; Coordenadas = 40.5364, -7.2683; Id: E4
+ -> Pessoa: 
+Localidade = CT12; Coordenadas = 41.1495, -8.6108; Id: C6
+
+Weight: 186700
+From 12 to 6-> Pessoa: 
+Localidade = CT9; Coordenadas = 40.5364, -7.2683; Id: E4
+ -> Pessoa: 
+Localidade = CT7; Coordenadas = 38.5667, -7.9; Id: C7
+
+Weight: 379425
+From 12 to 7-> Pessoa: 
+Localidade = CT9; Coordenadas = 40.5364, -7.2683; Id: E4
+ -> Pessoa: 
+Localidade = CT8; Coordenadas = 37.0161, -7.935; Id: C8
+
+Weight: 441942
+From 12 to 8-> Pessoa: 
+Localidade = CT9; Coordenadas = 40.5364, -7.2683; Id: E4
+ -> Pessoa: 
+Localidade = CT13; Coordenadas = 39.2369, -8.685; Id: C9
+
+Weight: 267739
+From 12 to 9-> Pessoa: 
+Localidade = CT9; Coordenadas = 40.5364, -7.2683; Id: E4
+ -> Pessoa: 
+Localidade = CT14; Coordenadas = 38.5243, -8.8926; Id: E1
+
+Weight: 357552
+From 12 to 10-> Pessoa: 
+Localidade = CT9; Coordenadas = 40.5364, -7.2683; Id: E4
+ -> Pessoa: 
+Localidade = CT11; Coordenadas = 39.3167, -7.4167; Id: E2
+
+Weight: 152841
+From 12 to 11-> Pessoa: 
+Localidade = CT9; Coordenadas = 40.5364, -7.2683; Id: E4
+ -> Pessoa: 
+Localidade = CT5; Coordenadas = 39.823, -7.4931; Id: E3
+
+Weight: 90186
+From 12 to 13-> Pessoa: 
+Localidade = CT9; Coordenadas = 40.5364, -7.2683; Id: E4
+ -> Pessoa: 
+Localidade = CT4; Coordenadas = 41.8, -6.75; Id: E5
+
+Weight: 162527
+From 12 to 14-> Pessoa: 
+Localidade = CT9; Coordenadas = 40.5364, -7.2683; Id: E4
+ -> Pessoa: 
+Localidade = CT17; Coordenadas = 40.6667, -7.9167; Id: P1
+
+Weight: 62879
+From 12 to 15-> Pessoa: 
+Localidade = CT9; Coordenadas = 40.5364, -7.2683; Id: E4
+ -> Pessoa: 
+Localidade = CT6; Coordenadas = 40.2111, -8.4291; Id: P2
+
+Weight: 136707
+From 12 to 16-> Pessoa: 
+Localidade = CT9; Coordenadas = 40.5364, -7.2683; Id: E4
+ -> Pessoa: 
+Localidade = CT10; Coordenadas = 39.7444, -8.8072; Id: P3
+
+Weight: 204291
+From 13 to 0-> Pessoa: 
+Localidade = CT4; Coordenadas = 41.8, -6.75; Id: E5
+ -> Pessoa: 
+Localidade = CT1; Coordenadas = 40.6389, -8.6553; Id: C1
+
+Weight: 256006
+From 13 to 1-> Pessoa: 
+Localidade = CT4; Coordenadas = 41.8, -6.75; Id: E5
+ -> Pessoa: 
+Localidade = CT2; Coordenadas = 38.0333, -7.8833; Id: C2
+
+Weight: 479364
+From 13 to 2-> Pessoa: 
+Localidade = CT4; Coordenadas = 41.8, -6.75; Id: E5
+ -> Pessoa: 
+Localidade = CT3; Coordenadas = 41.5333, -8.4167; Id: C3
+
+Weight: 157223
+From 13 to 3-> Pessoa: 
+Localidade = CT4; Coordenadas = 41.8, -6.75; Id: E5
+ -> Pessoa: 
+Localidade = CT15; Coordenadas = 41.7, -8.8333; Id: C4
+
+Weight: 200821
+From 13 to 4-> Pessoa: 
+Localidade = CT4; Coordenadas = 41.8, -6.75; Id: E5
+ -> Pessoa: 
+Localidade = CT16; Coordenadas = 41.3002, -7.7398; Id: C5
+
+Weight: 110133
+From 13 to 5-> Pessoa: 
+Localidade = CT4; Coordenadas = 41.8, -6.75; Id: E5
+ -> Pessoa: 
+Localidade = CT12; Coordenadas = 41.1495, -8.6108; Id: C6
+
+Weight: 193129
+From 13 to 6-> Pessoa: 
+Localidade = CT4; Coordenadas = 41.8, -6.75; Id: E5
+ -> Pessoa: 
+Localidade = CT7; Coordenadas = 38.5667, -7.9; Id: C7
+
+Weight: 506239
+From 13 to 7-> Pessoa: 
+Localidade = CT4; Coordenadas = 41.8, -6.75; Id: E5
+ -> Pessoa: 
+Localidade = CT8; Coordenadas = 37.0161, -7.935; Id: C8
+
+Weight: 604469
+From 13 to 8-> Pessoa: 
+Localidade = CT4; Coordenadas = 41.8, -6.75; Id: E5
+ -> Pessoa: 
+Localidade = CT13; Coordenadas = 39.2369, -8.685; Id: C9
+
+Weight: 394553
+From 13 to 9-> Pessoa: 
+Localidade = CT4; Coordenadas = 41.8, -6.75; Id: E5
+ -> Pessoa: 
+Localidade = CT14; Coordenadas = 38.5243, -8.8926; Id: E1
+
+Weight: 484366
+From 13 to 10-> Pessoa: 
+Localidade = CT4; Coordenadas = 41.8, -6.75; Id: E5
+ -> Pessoa: 
+Localidade = CT11; Coordenadas = 39.3167, -7.4167; Id: E2
+
+Weight: 315368
+From 13 to 11-> Pessoa: 
+Localidade = CT4; Coordenadas = 41.8, -6.75; Id: E5
+ -> Pessoa: 
+Localidade = CT5; Coordenadas = 39.823, -7.4931; Id: E3
+
+Weight: 252713
+From 13 to 12-> Pessoa: 
+Localidade = CT4; Coordenadas = 41.8, -6.75; Id: E5
+ -> Pessoa: 
+Localidade = CT9; Coordenadas = 40.5364, -7.2683; Id: E4
+
+Weight: 162527
+From 13 to 14-> Pessoa: 
+Localidade = CT4; Coordenadas = 41.8, -6.75; Id: E5
+ -> Pessoa: 
+Localidade = CT17; Coordenadas = 40.6667, -7.9167; Id: P1
+
+Weight: 189693
+From 13 to 15-> Pessoa: 
+Localidade = CT4; Coordenadas = 41.8, -6.75; Id: E5
+ -> Pessoa: 
+Localidade = CT6; Coordenadas = 40.2111, -8.4291; Id: P2
+
+Weight: 263521
+From 13 to 16-> Pessoa: 
+Localidade = CT4; Coordenadas = 41.8, -6.75; Id: E5
+ -> Pessoa: 
+Localidade = CT10; Coordenadas = 39.7444, -8.8072; Id: P3
+
+Weight: 331105
+From 14 to 0-> Pessoa: 
+Localidade = CT17; Coordenadas = 40.6667, -7.9167; Id: P1
+ -> Pessoa: 
+Localidade = CT1; Coordenadas = 40.6389, -8.6553; Id: C1
+
+Weight: 69282
+From 14 to 1-> Pessoa: 
+Localidade = CT17; Coordenadas = 40.6667, -7.9167; Id: P1
+ -> Pessoa: 
+Localidade = CT2; Coordenadas = 38.0333, -7.8833; Id: C2
+
+Weight: 337785
+From 14 to 2-> Pessoa: 
+Localidade = CT17; Coordenadas = 40.6667, -7.9167; Id: P1
+ -> Pessoa: 
+Localidade = CT3; Coordenadas = 41.5333, -8.4167; Id: C3
+
+Weight: 148517
+From 14 to 3-> Pessoa: 
+Localidade = CT17; Coordenadas = 40.6667, -7.9167; Id: P1
+ -> Pessoa: 
+Localidade = CT15; Coordenadas = 41.7, -8.8333; Id: C4
+
+Weight: 192115
+From 14 to 4-> Pessoa: 
+Localidade = CT17; Coordenadas = 40.6667, -7.9167; Id: P1
+ -> Pessoa: 
+Localidade = CT16; Coordenadas = 41.3002, -7.7398; Id: C5
+
+Weight: 79560
+From 14 to 5-> Pessoa: 
+Localidade = CT17; Coordenadas = 40.6667, -7.9167; Id: P1
+ -> Pessoa: 
+Localidade = CT12; Coordenadas = 41.1495, -8.6108; Id: C6
+
+Weight: 132159
+From 14 to 6-> Pessoa: 
+Localidade = CT17; Coordenadas = 40.6667, -7.9167; Id: P1
+ -> Pessoa: 
+Localidade = CT7; Coordenadas = 38.5667, -7.9; Id: C7
+
+Weight: 316546
+From 14 to 7-> Pessoa: 
+Localidade = CT17; Coordenadas = 40.6667, -7.9167; Id: P1
+ -> Pessoa: 
+Localidade = CT8; Coordenadas = 37.0161, -7.935; Id: C8
+
+Weight: 462890
+From 14 to 8-> Pessoa: 
+Localidade = CT17; Coordenadas = 40.6667, -7.9167; Id: P1
+ -> Pessoa: 
+Localidade = CT13; Coordenadas = 39.2369, -8.685; Id: C9
+
+Weight: 204860
+From 14 to 9-> Pessoa: 
+Localidade = CT17; Coordenadas = 40.6667, -7.9167; Id: P1
+ -> Pessoa: 
+Localidade = CT14; Coordenadas = 38.5243, -8.8926; Id: E1
+
+Weight: 294673
+From 14 to 10-> Pessoa: 
+Localidade = CT17; Coordenadas = 40.6667, -7.9167; Id: P1
+ -> Pessoa: 
+Localidade = CT11; Coordenadas = 39.3167, -7.4167; Id: E2
+
+Weight: 173789
+From 14 to 11-> Pessoa: 
+Localidade = CT17; Coordenadas = 40.6667, -7.9167; Id: P1
+ -> Pessoa: 
+Localidade = CT5; Coordenadas = 39.823, -7.4931; Id: E3
+
+Weight: 111134
+From 14 to 12-> Pessoa: 
+Localidade = CT17; Coordenadas = 40.6667, -7.9167; Id: P1
+ -> Pessoa: 
+Localidade = CT9; Coordenadas = 40.5364, -7.2683; Id: E4
+
+Weight: 62879
+From 14 to 13-> Pessoa: 
+Localidade = CT17; Coordenadas = 40.6667, -7.9167; Id: P1
+ -> Pessoa: 
+Localidade = CT4; Coordenadas = 41.8, -6.75; Id: E5
+
+Weight: 189693
+From 14 to 15-> Pessoa: 
+Localidade = CT17; Coordenadas = 40.6667, -7.9167; Id: P1
+ -> Pessoa: 
+Localidade = CT6; Coordenadas = 40.2111, -8.4291; Id: P2
+
+Weight: 73828
+From 14 to 16-> Pessoa: 
+Localidade = CT17; Coordenadas = 40.6667, -7.9167; Id: P1
+ -> Pessoa: 
+Localidade = CT10; Coordenadas = 39.7444, -8.8072; Id: P3
+
+Weight: 141412
+From 15 to 0-> Pessoa: 
+Localidade = CT6; Coordenadas = 40.2111, -8.4291; Id: P2
+ -> Pessoa: 
+Localidade = CT1; Coordenadas = 40.6389, -8.6553; Id: C1
+
+Weight: 56717
+From 15 to 1-> Pessoa: 
+Localidade = CT6; Coordenadas = 40.2111, -8.4291; Id: P2
+ -> Pessoa: 
+Localidade = CT2; Coordenadas = 38.0333, -7.8833; Id: C2
+
+Weight: 308292
+From 15 to 2-> Pessoa: 
+Localidade = CT6; Coordenadas = 40.2111, -8.4291; Id: P2
+ -> Pessoa: 
+Localidade = CT3; Coordenadas = 41.5333, -8.4167; Id: C3
+
+Weight: 170061
+From 15 to 3-> Pessoa: 
+Localidade = CT6; Coordenadas = 40.2111, -8.4291; Id: P2
+ -> Pessoa: 
+Localidade = CT15; Coordenadas = 41.7, -8.8333; Id: C4
+
+Weight: 190311
+From 15 to 4-> Pessoa: 
+Localidade = CT6; Coordenadas = 40.2111, -8.4291; Id: P2
+ -> Pessoa: 
+Localidade = CT16; Coordenadas = 41.3002, -7.7398; Id: C5
+
+Weight: 153388
+From 15 to 5-> Pessoa: 
+Localidade = CT6; Coordenadas = 40.2111, -8.4291; Id: P2
+ -> Pessoa: 
+Localidade = CT12; Coordenadas = 41.1495, -8.6108; Id: C6
+
+Weight: 119594
+From 15 to 6-> Pessoa: 
+Localidade = CT6; Coordenadas = 40.2111, -8.4291; Id: P2
+ -> Pessoa: 
+Localidade = CT7; Coordenadas = 38.5667, -7.9; Id: C7
+
+Weight: 242718
+From 15 to 7-> Pessoa: 
+Localidade = CT6; Coordenadas = 40.2111, -8.4291; Id: P2
+ -> Pessoa: 
+Localidade = CT8; Coordenadas = 37.0161, -7.935; Id: C8
+
+Weight: 428403
+From 15 to 8-> Pessoa: 
+Localidade = CT6; Coordenadas = 40.2111, -8.4291; Id: P2
+ -> Pessoa: 
+Localidade = CT13; Coordenadas = 39.2369, -8.685; Id: C9
+
+Weight: 131032
+From 15 to 9-> Pessoa: 
+Localidade = CT6; Coordenadas = 40.2111, -8.4291; Id: P2
+ -> Pessoa: 
+Localidade = CT14; Coordenadas = 38.5243, -8.8926; Id: E1
+
+Weight: 220845
+From 15 to 10-> Pessoa: 
+Localidade = CT6; Coordenadas = 40.2111, -8.4291; Id: P2
+ -> Pessoa: 
+Localidade = CT11; Coordenadas = 39.3167, -7.4167; Id: E2
+
+Weight: 163218
+From 15 to 11-> Pessoa: 
+Localidade = CT6; Coordenadas = 40.2111, -8.4291; Id: P2
+ -> Pessoa: 
+Localidade = CT5; Coordenadas = 39.823, -7.4931; Id: E3
+
+Weight: 100563
+From 15 to 12-> Pessoa: 
+Localidade = CT6; Coordenadas = 40.2111, -8.4291; Id: P2
+ -> Pessoa: 
+Localidade = CT9; Coordenadas = 40.5364, -7.2683; Id: E4
+
+Weight: 136707
+From 15 to 13-> Pessoa: 
+Localidade = CT6; Coordenadas = 40.2111, -8.4291; Id: P2
+ -> Pessoa: 
+Localidade = CT4; Coordenadas = 41.8, -6.75; Id: E5
+
+Weight: 263521
+From 15 to 14-> Pessoa: 
+Localidade = CT6; Coordenadas = 40.2111, -8.4291; Id: P2
+ -> Pessoa: 
+Localidade = CT17; Coordenadas = 40.6667, -7.9167; Id: P1
+
+Weight: 73828
+From 15 to 16-> Pessoa: 
+Localidade = CT6; Coordenadas = 40.2111, -8.4291; Id: P2
+ -> Pessoa: 
+Localidade = CT10; Coordenadas = 39.7444, -8.8072; Id: P3
+
+Weight: 67584
+From 16 to 0-> Pessoa: 
+Localidade = CT10; Coordenadas = 39.7444, -8.8072; Id: P3
+ -> Pessoa: 
+Localidade = CT1; Coordenadas = 40.6389, -8.6553; Id: C1
+
+Weight: 110848
+From 16 to 1-> Pessoa: 
+Localidade = CT10; Coordenadas = 39.7444, -8.8072; Id: P3
+ -> Pessoa: 
+Localidade = CT2; Coordenadas = 38.0333, -7.8833; Id: C2
+
+Weight: 240708
+From 16 to 2-> Pessoa: 
+Localidade = CT10; Coordenadas = 39.7444, -8.8072; Id: P3
+ -> Pessoa: 
+Localidade = CT3; Coordenadas = 41.5333, -8.4167; Id: C3
+
+Weight: 224192
+From 16 to 3-> Pessoa: 
+Localidade = CT10; Coordenadas = 39.7444, -8.8072; Id: P3
+ -> Pessoa: 
+Localidade = CT15; Coordenadas = 41.7, -8.8333; Id: C4
+
+Weight: 244442
+From 16 to 4-> Pessoa: 
+Localidade = CT10; Coordenadas = 39.7444, -8.8072; Id: P3
+ -> Pessoa: 
+Localidade = CT16; Coordenadas = 41.3002, -7.7398; Id: C5
+
+Weight: 220972
+From 16 to 5-> Pessoa: 
+Localidade = CT10; Coordenadas = 39.7444, -8.8072; Id: P3
+ -> Pessoa: 
+Localidade = CT12; Coordenadas = 41.1495, -8.6108; Id: C6
+
+Weight: 173725
+From 16 to 6-> Pessoa: 
+Localidade = CT10; Coordenadas = 39.7444, -8.8072; Id: P3
+ -> Pessoa: 
+Localidade = CT7; Coordenadas = 38.5667, -7.9; Id: C7
+
+Weight: 175134
+From 16 to 7-> Pessoa: 
+Localidade = CT10; Coordenadas = 39.7444, -8.8072; Id: P3
+ -> Pessoa: 
+Localidade = CT8; Coordenadas = 37.0161, -7.935; Id: C8
+
+Weight: 360819
+From 16 to 8-> Pessoa: 
+Localidade = CT10; Coordenadas = 39.7444, -8.8072; Id: P3
+ -> Pessoa: 
+Localidade = CT13; Coordenadas = 39.2369, -8.685; Id: C9
+
+Weight: 63448
+From 16 to 9-> Pessoa: 
+Localidade = CT10; Coordenadas = 39.7444, -8.8072; Id: P3
+ -> Pessoa: 
+Localidade = CT14; Coordenadas = 38.5243, -8.8926; Id: E1
+
+Weight: 153261
+From 16 to 10-> Pessoa: 
+Localidade = CT10; Coordenadas = 39.7444, -8.8072; Id: P3
+ -> Pessoa: 
+Localidade = CT11; Coordenadas = 39.3167, -7.4167; Id: E2
+
+Weight: 142470
+From 16 to 11-> Pessoa: 
+Localidade = CT10; Coordenadas = 39.7444, -8.8072; Id: P3
+ -> Pessoa: 
+Localidade = CT5; Coordenadas = 39.823, -7.4931; Id: E3
+
+Weight: 125041
+From 16 to 12-> Pessoa: 
+Localidade = CT10; Coordenadas = 39.7444, -8.8072; Id: P3
+ -> Pessoa: 
+Localidade = CT9; Coordenadas = 40.5364, -7.2683; Id: E4
+
+Weight: 204291
+From 16 to 13-> Pessoa: 
+Localidade = CT10; Coordenadas = 39.7444, -8.8072; Id: P3
+ -> Pessoa: 
+Localidade = CT4; Coordenadas = 41.8, -6.75; Id: E5
+
+Weight: 331105
+From 16 to 14-> Pessoa: 
+Localidade = CT10; Coordenadas = 39.7444, -8.8072; Id: P3
+ -> Pessoa: 
+Localidade = CT17; Coordenadas = 40.6667, -7.9167; Id: P1
+
+Weight: 141412
+From 16 to 15-> Pessoa: 
+Localidade = CT10; Coordenadas = 39.7444, -8.8072; Id: P3
+ -> Pessoa: 
+Localidade = CT6; Coordenadas = 40.2111, -8.4291; Id: P2
+
+Weight: 67584
+

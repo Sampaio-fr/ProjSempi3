@@ -1,0 +1,100 @@
+@startuml
+'https://plantuml.com/class-diagram
+package java <<Folder>>#DDDDDD {
+package Company <<Folder>>#DDDDDD {
+
+
+package Controller <<Folder>>#DDDDDD {
+class MainController{
++findVertexWithMinimumDistance()
+}
+
+}
+
+package ui <<Folder>>#DDDDDD {
+class MenuUI{
++ MainController()
+}
+
+class Main{
++ MenuUI()
+}
+
+}
+package Model <<Folder>>#DDDDDD {
+
+class Company{
++getStoreLists()
++getMapGraphPessoaStore()
+}
+class Pessoa{
+}
+class Empresa{
+}
+}
+
+
+}
+package Store <<Folder>>#DDDDDD {
+
+class MapGraphPessoaStore{
++getMapGraph()
+}
+}
+
+
+
+package Graph <<Folder>>#DDDDDD {
+package map <<Folder>>#DDDDDD {
+class MapGraph{
++edge(pessoa, pessoa1)
+}
+}
+
+class Edge{
++getWeight()
+}
+Interface Graph
+
+class Algorithms{
++minDistGraph(mapGraphPessoa, comparator, binaryOperator)
+}
+
+class CommonGraph{
++vertices()
+}
+}
+
+package Methods <<Folder>>#DDDDDD {
+class FindMethods{
++findVertexWithMinimumDistance()
+}
+}
+
+
+Main ..> MenuUI
+MenuUI ..> MainController
+
+
+MainController ..> Company
+MainController ..> FindMethods
+
+Company *-- MapGraphPessoaStore : owns
+
+
+FindMethods -- Algorithms : uses >
+
+Pessoa <|--  Empresa: extends
+
+
+MapGraph ..|> Graph : implements
+MapGraph --|> CommonGraph : extends
+
+MapGraphPessoaStore "1" -- "*" Edge: has >
+MapGraphPessoaStore "1" -- "*" Pessoa: has >
+
+MapGraphPessoaStore "1" -- "0..1" MapGraph: has >
+
+
+
+@enduml

@@ -1,0 +1,34 @@
+CLIENTE: Each client can have at most 1 row in the CLIENTE table.
+
+PARCELA: Each parcel can have at most 1 row in the PARCELA table.
+
+PRODUCT: Each product can have at most 1 row in the PRODUCT table.
+
+PRODUCAO: Each production record can have at most 1 row in the PRODUCAO table.
+
+VENDA: Each sale can have at most 1 row in the VENDA table.
+
+TEMPO: Each time period can have at most 1 row in the TEMPO table.
+
+In terms of the relationships between the tables:
+
+A CLIENTE can have many VENDAS (1-to-many relationship).
+
+A PRODUCT: can have many VENDAS and PRODUCAO (1-to-many relationships).
+
+A TEMPO can have many VENDAS and PRODUCAO (1-to-many relationships).
+
+A PARCELA can have many PRODUCAO (1-to-many relationship).
+
+---------------------------------------------------------------------------------------------------
+
+A dimensão Tempo terá uma hierarquia com os níveis Ano e Mês. A dimensão Produto terá uma hierarquia com os níveis Tipo de cultura e Cultura. A estimativa da cardinalidade superior das tabelas de dimensões seria:
+
+Tempo: cerca de 120 linhas (10 anos x 12 meses por ano)
+Setor: cerca de 10 linhas (estimativa baseada na quantidade de setores agrícolas na região)
+Produto: cerca de 50 linhas (estimativa baseada na quantidade de tipos de culturas diferentes)
+Cliente: cerca de 100 linhas (estimativa baseada na quantidade de clientes ativos da empresa)
+A estimativa da cardinalidade superior das tabelas de fatos seria:
+
+Produção em toneladas: cerca de 1.200 linhas (10 anos x 12 meses por ano x 100 toneladas de produção média por mês)
+Vendas em milhares de euros: cerca de 1.200 linhas (10 anos x 12 meses por ano x 100 mil euros de vendas médias por mês)

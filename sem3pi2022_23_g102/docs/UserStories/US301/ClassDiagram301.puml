@@ -1,0 +1,121 @@
+@startuml
+'https://plantuml.com/class-diagram
+package java <<Folder>>#DDDDDD {
+package Company <<Folder>>#DDDDDD {
+
+package ReadFromCSV <<Folder>>#DDDDDD {
+class ReadFromCSV{
++lerClienteProdutor(caminho)
++lerDistancias(caminho)
+}
+}
+
+package Controller <<Folder>>#DDDDDD {
+class MainController{
++lerClienteProdutor(fileName.getPath())
++lerDistancias(fileName.getPath())
++createGraph()
++setMapGraph(MapGraph)
+}
+
+}
+
+package ui <<Folder>>#DDDDDD {
+class MenuUI{
++ MainController()
+}
+
+class Main{
++ MenuUI()
+}
+
+}
+package Model <<Folder>>#DDDDDD {
+
+class Company{
++getStoreLists()
++getMapGraphPessoaStore()
+}
+class Pessoa{
+}
+class Empresa{
+}
+class Cliente{
+}
+class Produtor{
+}
+
+
+
+}
+package Store <<Folder>>#DDDDDD {
+
+class StoreLists{
++addPessoaList(pessoa)
++addLocalidadeList(localidade)
++setPessoaList(pessoaList)
++setLocalidadeList(localidadeList)
++getPessoaList()
++getLocalidadeList()
+}
+class MapGraphPessoaStore{
++setMapGraph(graph)
+}
+}
+
+
+
+package Graph <<Folder>>#DDDDDD {
+package map <<Folder>>#DDDDDD {
+class MapGraph{
++graph.addVertex(pessoa)
++addEdge(pessoa, auxPessoa, helper.getDistancia())
+}
+}
+class Edge{
++Edge(pessoa, auxPessoa, helper.getDistancia())
+}
+Interface Graph
+}
+
+
+package Constants <<Folder>>#DDDDDD {
+class Constants
+}
+
+}
+package Methods <<Folder>>#DDDDDD {
+class CreateGraph{
++createGraph()
++findPessoaByLocal(local)
+}
+}
+
+
+Main ..> MenuUI
+MenuUI ..> MainController
+
+MainController ..> Company
+MainController ..> ReadFromCSV
+MainController ..> CreateGraph
+
+Company *-- StoreLists : owns
+Company *-- MapGraphPessoaStore : owns
+
+ReadFromCSV -->  Pessoa:  needs
+ReadFromCSV -->  Constants: needs
+
+Pessoa <|--  Empresa: extends
+Pessoa <|-- Cliente: extends
+Pessoa <|-- Produtor: extends
+
+MapGraph --|> Graph : implements
+
+MapGraphPessoaStore "1" -- "*" Edge: has >
+MapGraphPessoaStore "1" -- "*" Pessoa: has >
+
+MapGraphPessoaStore "1" -- "0..1" MapGraph: has >
+StoreLists "1" *-- "1..*" Lists: owns
+
+
+@enduml
